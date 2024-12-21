@@ -27,12 +27,11 @@ nav {
   justify-items: flex-end;
 }
 
-nav > ul {
- 
+nav ul {
   display: flex;
   gap: 15px;
 }
-nav > ul > li {
+nav ul li {
   list-style: none;
   text-align: right;
 }
@@ -41,12 +40,11 @@ a {
   text-decoration: none;
   color: #408988;
 }
-a > img {
+a img {
   width: 2rem;
 }
-#principal>img{
-    width: 1600px;
-
+#principal img {
+  width: 1600px;
 }
 #sobre {
   display: flex;
@@ -61,11 +59,12 @@ a > img {
   padding: 50px;
 }
 .text-section h1 {
-  font-size: 36px;
+  font-size: 5rem;
+  color: #255367;
 }
 .text-section p {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 2;
 }
 .text-section ul {
   list-style: none;
@@ -75,9 +74,19 @@ a > img {
   font-size: 16px;
   margin: 5px 0;
 }
-.image-section >img {
+.text-section hr {
+  width: 60px;
+  border: 0px;
+  border-top: 2px solid #408988;
+  
+}
+.image-section  img {
   width: 500px;
   max-width: 30vw;
   border-radius: 10px;
   align-items: center;
+}
+
+#consultorio img{
+  width: 1600px;
 }
